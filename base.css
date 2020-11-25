@@ -1,0 +1,36 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    background: black;
+    height: 100vh;
+}
+#root{
+    margin: 0;
+    padding: 0;
+    min-height: 90vh;
+}
+#Title{
+    background-image: url("nuages.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    padding-left: 100px;
+    vertical-align: bottom;
+}
+#TitleBand{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, darkorange, lightgoldenrodyellow);
+    border-bottom: black 6px solid;
+}
+#MainView{
+    background: white;
+    border-top: goldenrod 3px solid;
+    height: 95%;
+}
+#Tail{
+    font-size: 0.6em;
+    margin: auto;
+    text-align: center;
+    background: goldenrod;
+}
